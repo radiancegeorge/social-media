@@ -1,24 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
+import Splash from './pages/Splash';
 import './App.css';
+import './styles/Splash.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import SignIn from './pages/SignIn';
+import ResetPassword from './pages/ResetPassword';
+import NewPassword from './pages/NewPassword';
+import NewUser from './pages/NewUser';
+import SetProfile from './pages/SetProfile'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/sf-ui-text-regular-" type="text/css" />
+      <Router>
+        <Switch>
+          <Route exact path = '/'>
+            <Splash />
+          </Route>
+          <Route path='/signin'>
+            <SignIn />
+          </Route>
+          <Route path='/reset-password'>
+            <ResetPassword />
+          </Route>
+          <Route path='/new-password'>
+            <NewPassword />
+          </Route>
+          <Route path='/new-user'>
+            <NewUser/>
+          </Route>
+          <Route path='/set-profile'>
+            <SetProfile />
+          </Route>
+        </Switch>
+      </Router>
+      <p className = 'copyright'>&copy; {new Date().getFullYear()} momeno Inc.</p>
     </div>
   );
 }

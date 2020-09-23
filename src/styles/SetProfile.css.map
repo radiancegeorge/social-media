@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AACA,WADW,CACX,KAAK,CAAA;IACD,QAAQ,EAAE,QAAQ;IAClB,KAAK,EAAE,IAAI;IACX,OAAO,EAAE,KAAK;GAMjB;EAVD,AAKI,WALO,CACX,KAAK,CAID,GAAG,CAAA;IACC,QAAQ,EAAE,QAAQ;IAClB,KAAK,EAAE,IAAI;IACX,GAAG,EAAE,IAAI;GACZ",
+    "sources": [
+        "../css/SetProfile.scss"
+    ],
+    "names": [],
+    "file": "SetProfile.css"
+}

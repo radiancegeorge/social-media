@@ -1,0 +1,13 @@
+@media (max-width: 779px) {
+  .SetProfile label {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+  .SetProfile label img {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+}
+/*# sourceMappingURL=SetProfile.css.map */

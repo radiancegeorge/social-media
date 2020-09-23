@@ -1,0 +1,53 @@
+@media (max-width: 779px) {
+  .Splash {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .Splash img {
+    margin: 5rem 0 2rem 0;
+  }
+  .Splash h1 {
+    margin: 0 0 2rem 0;
+  }
+  .Splash p {
+    max-width: 300px;
+    font-size: 13px;
+    margin-bottom: 4rem;
+    font-weight: 100;
+    line-height: 1rem;
+  }
+  .Splash a {
+    text-decoration: none;
+  }
+  .Splash .signin {
+    color: white;
+    font-weight: 600;
+    background: #FF6265;
+    padding: 1rem 8rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .Splash .signin:focus {
+    outline: none;
+  }
+  .Splash .new-account {
+    color: #FF6265;
+    margin: 4rem 0;
+  }
+}
+/*# sourceMappingURL=Splash.css.map */

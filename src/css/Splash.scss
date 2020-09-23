@@ -1,0 +1,43 @@
+@media (max-width: 779px){
+    .Splash{
+    display: flex;
+    flex-flow: column;
+    justify-content:  center;
+    align-items: center;
+    text-align: center;
+    img{
+        margin: 5rem 0 2rem 0;
+    }
+    h1{
+        margin: 0 0 2rem 0;
+    }
+    p{
+        max-width: 300px;
+        font-size: 13px;
+        margin-bottom: 4rem;
+        font-weight: 100;
+        line-height: 1rem;
+    }
+    a{
+        text-decoration: none;
+    }
+    .signin{
+        color: white;
+        font-weight: 600;
+        background: #FF6265;
+        padding: 1rem 8rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        &:focus{
+            outline: none;
+        }
+    }
+    .new-account{
+        color: #FF6265;
+        margin: 4rem 0;
+    }
+}
+}

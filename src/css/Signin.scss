@@ -1,0 +1,36 @@
+.Signin{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        width: 100%;
+        a{
+            position: absolute;
+            left: 0;
+        }
+        h1{
+            flex-basis: 100%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    p{
+        margin: 5rem 0 2rem 0;
+        font-size: 16px;
+    }
+    form{
+        width: 100%;
+        
+        button{
+            width: 100%;
+            margin: 0rem 0 1rem 0;
+        }
+    }
+}
