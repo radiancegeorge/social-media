@@ -42,9 +42,19 @@ const NewUser = ()=>{
                 <form action="" style ={{
                     marginBottom: '2rem'
                 }} onSubmit = {(e)=>{
+                    e.preventDefault();
+                    e.persist();
                     const result = submitRegForm(e);
                     result.then(response=>{
-                        console.log(response)
+                        if(response === 200){
+                            console.log(e.target)
+                            const {id} = e.target;
+                            localStorage.setItem("id", JSON.stringify({id: id.value}))
+                            window.location.href = '/feeds'
+                        }else if(response === 409){
+                            //get user to know that id has already been taken;
+                            alert(`email has already been taken` )
+                        }
                     })
                 }}>
                     {

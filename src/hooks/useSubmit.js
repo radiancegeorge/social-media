@@ -1,5 +1,5 @@
 const submitRegForm = async (e)=>{
-    e.preventDefault()
+    // e.preventDefault()
     const form = e.target;
     const id = ()=>{
         if (form.id) {
