@@ -27,7 +27,7 @@ const NewUser = ()=>{
         <div className="container">
             <div className="Signin">
                 <div className="header">
-                    <Link to='/signin'>
+                    <Link to='/'>
                         <img src={backIcon} alt="" />
                     </Link>
                     <h1>Create New Password</h1>
@@ -49,8 +49,8 @@ const NewUser = ()=>{
                         if(response === 200){
                             console.log(e.target)
                             const {id} = e.target;
-                            localStorage.setItem("id", JSON.stringify({id: id.value}))
-                            window.location.href = '/feeds'
+                            localStorage.setItem("id", id.value)
+                            window.location.href = '/feeds';
                         }else if(response === 409){
                             //get user to know that id has already been taken;
                             alert(`email has already been taken` )

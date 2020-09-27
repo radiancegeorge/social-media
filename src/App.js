@@ -7,7 +7,8 @@ import SignIn from './pages/SignIn';
 import ResetPassword from './pages/ResetPassword';
 import NewPassword from './pages/NewPassword';
 import NewUser from './pages/NewUser';
-import SetProfile from './pages/SetProfile'
+import SetProfile from './pages/SetProfile';
+import Feed from './pages/Feed';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route path='/set-profile'>
             <SetProfile />
+          </Route>
+          <Route path='/feeds'>
+            <Feed />
           </Route>
         </Switch>
       </Router>

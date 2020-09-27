@@ -1,0 +1,58 @@
+.Feed header {
+  padding: 0.5rem 0;
+}
+
+.Feed header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Feed header nav h1 {
+  font-size: 20px;
+}
+
+.Feed .box .user-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Feed .box .user-section .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Feed .box .user-section .user .time {
+  display: block;
+  font-size: 70%;
+}
+
+.Feed .box .user-section .name {
+  font-size: 80%;
+  font-weight: 600;
+  color: black;
+}
+
+.add-image {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  background: red;
+  padding: 0.5rem 0.6rem;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=Feed.css.map */

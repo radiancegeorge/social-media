@@ -1,0 +1,41 @@
+.Feed{
+    header{
+        padding: 0.5rem 0;
+        nav{
+            display: flex;
+            justify-content: space-between;
+            h1{
+                font-size: 20px;
+            }
+        }
+    }
+    .box{
+        .user-section{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .user{
+                display: flex;
+                align-items: center;
+                .time{
+                    display: block;
+                    font-size: 70%;
+                }
+            }
+            
+            .name{
+                font-size: 80%;
+                font-weight: 600;
+                color: black;
+            }
+        }
+    }
+}
+.add-image{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    background: red;
+    padding: 0.5rem 0.6rem;
+    border-radius: 50px;
+}

@@ -11,7 +11,7 @@ const Splash = ()=>{
                 <h1>MOMENTO</h1>
                 <p>momento is a social media app that let's you share your moments with others</p>
                 <LongButton to = '/signin' text = 'Sign In'/>
-                <Link className = 'new-account' to = '/signup'>Create New Account</Link>
+                <Link className = 'new-account' to = '/new-user'>Create New Account</Link>
             </div>
         </div>
     )
